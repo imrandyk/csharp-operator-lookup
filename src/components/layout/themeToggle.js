@@ -4,7 +4,7 @@ import Button from '../button'
 import Icon from '../icon'
 
 const ThemeToggle = () => {
-  const [toggle, set] = useState(localStorage.theme !== 'light')
+  const [toggle, set] = useState(typeof window !== `undefined` ? localStorage.theme !== 'light' : true)
   const transitions = useTransition(toggle, null, {
     from: { position: 'absolute', top: 0, opacity: 0 },
     enter: { opacity: 1 },
