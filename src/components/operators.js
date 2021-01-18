@@ -44,7 +44,7 @@ const Operators = () => {
           return (
             <AnimatedLink
               key={index}
-              className="font-mono inline-block px-1.5 py-1 rounded-sm mb-1 mr-2 text-sm text-white dark:text-black bg-primary-700 hover:bg-primary-600 dark:bg-primary-500 dark:hover:bg-primary-400 outline-none transition-colors ease-out duration-75 ring-offset-white dark:ring-offset-black ring-offset-2 focus:ring-2 focus:ring-primary-400"
+              className="font-mono inline-block px-2 py-1 rounded-sm mb-1 mr-2 text-sm text-white dark:text-black bg-primary-700 hover:bg-primary-600 dark:bg-primary-500 dark:hover:bg-primary-400 outline-none transition-colors ease-out duration-75 ring-offset-white dark:ring-offset-black ring-offset-2 focus:ring-2 focus:ring-primary-400"
               to={name}
               style={{
                 ...rest,
