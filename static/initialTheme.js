@@ -9,11 +9,11 @@ if (
 }
 
 document.querySelector('body').style.cssText = `font-variant-ligatures: ${
-  localStorage.ligature === 'true' ? 'common-ligatures' : 'none'
+  localStorage.ligature !== 'false' ? 'common-ligatures' : 'none'
 };`
 
 document.querySelector(
   '#search-box'
 ).style.cssText = `font-variant-ligatures: ${
-  localStorage.ligature === 'true' ? 'common-ligatures' : 'none'
+  localStorage.ligature !== 'false' ? 'common-ligatures' : 'none'
 };`

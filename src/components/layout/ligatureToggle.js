@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Button from '../button'
 
 const LigatureToggle = () => {
-  const [toggle, set] = useState(typeof window !== `undefined` ? localStorage.ligature === 'true' : true)
+  const [toggle, set] = useState(typeof window !== `undefined` ? localStorage.ligature !== 'false' : true)
 
   const change = () => {
     // On page load or when toggle, best to add inline in `head` to avoid FOUC
