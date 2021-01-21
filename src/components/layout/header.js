@@ -6,7 +6,7 @@ import ThemeToggle from './themeToggle'
 import LigatureToggle from './ligatureToggle'
 
 const Header = ({ siteTitle }) => (
-  <nav className="dark:bg-primary-500 bg-primary-700 py-6 relative z-10">
+  <nav className="dark:bg-primary-500 bg-primary-700 py-6 relative z-10 flex-grow-0">
     <header className="flex items-center justify-between px-6 lg:max-w-5xl mx-auto dark:text-black text-white">
       <Link to="/">
         <Title siteTitle={siteTitle} />
