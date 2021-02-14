@@ -29,6 +29,7 @@
     "prop-types": "^15.7.2",
     "query-string": "^6.13.7",
     "react": "^16.14.0",
+    "react-component-export-image": "^1.0.5",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.0.0",
     "react-spring": "^8.0.27",
